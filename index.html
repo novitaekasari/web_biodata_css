@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- TODO: answer here -->
+    <title>Student Portal</title>
+    <link rel="stylesheet" href="style.css" />
+
+  </head>
+  <body>
+    <fieldset>
+        <div class="flex-container">
+      <h1>Student Portal</h1>
+      
+      <!-- <p>Admin</p> -->
+      <br />
+      <form id="form-student">
+        <label for="input-name">FullName</label>
+        <input type="text" id="input-name" /><br />
+        <label for="input-date">Birth Date</label>
+        <input type="date" id="input-date" /><br />
+        <label for="input-gender">Gender</label>
+        <select name="" id="input-gender">
+          <option value="Male">Male</option>
+          <option value="Female">Female</option>
+        </select>
+        <br /><br />
+       
+          <label for="input-prody">Program Study</label>
+          <select id="input-prody">
+            <option value="Ekonomi">Ekonomi</option>
+            <option value="Manajemen">Manajemen</option>
+            <option value="Akuntansi">Akuntansi</option>
+            <option value="Administrasi-publik">Administrasi Publik</option>
+            <option value="Administrasi-bisnis">Administrasi Bisnis</option>
+            <option value="Hubungan-int">Hubungan Internasional</option>
+            <option value="Teknik sipil">Teknik Sipil</option>
+            <option value="Arsitektur">Arsitektur</option>
+            <option value="Informatika">Informatika</option>
+            <option value="Matematika">Matematika</option>
+            <option value="Fisika">Fisika</option>
+          </select>
+        <br>
+        <br />
+        <input type="submit" value="Add Student" id="add-btn" /></div>
+      </form>
+    </fieldset>
+
+    <br />
+    <div class="grid-container">
+    <table id="table-student" frame="hsides">
+      <tbody id="student-data">
+        <tr>
+          <th>No</th>
+          <th>Full Name</th>
+          <th>Birth Date</th>
+          <th>Gender</th>
+          <th>Student</th>
+          <th>Faculty</th>
+          <th>Program Studi</th>
+          <th>Option</th>
+        </tr>
+        <tr>
+          <td>1</td>
+          <td>Novita Ekasari</td>
+          <td>23/11/2002</td>
+          <td>Female</td>
+          <td>2006700025</td>
+          <td>Teknik</td>
+          <td>Informatika</td>
+          <td><button type="button">Delete</button></td>
+        </tr>
+      </tbody>
+    </table>
+</div>
+
+    <!-- TODO: answer here -->
+  </body>
+</html>

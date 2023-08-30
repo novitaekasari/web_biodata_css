@@ -1,0 +1,76 @@
+* {
+  margin: auto;
+  padding: auto;
+  outline: 50px;
+  font-family: "Open Sans", sans-serif;
+}
+
+body {
+  height: 100vh;
+  background-color: rgb(240, 226, 226);
+}
+/* * p {
+  color: rgb(242, 245, 244);
+  padding-top: 10px;
+}
+
+h1 {
+  text-align: center;
+} */
+
+/* table {
+    margin-left: auto;
+    margin-right: auto;
+    background-color: pink;
+} */
+fieldset {
+  background-color: rgb(229, 174, 174);
+}
+
+input[type="submit"] {
+  background-color: rgb(189, 56, 134);
+}
+
+.flex-container {
+  left: 50%;
+  top: 50%;
+  transform: translate(0);
+  display: flex;
+  padding: 20px 25px;
+  width: 500px;
+  background-color: rgb(215, 124, 165);
+  margin: auto;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+}
+
+.flex-container h1 {
+  text-align: center;
+  margin-top: auto;
+  color: #fafafa;
+  border-bottom: 2px solid #f44d66;
+}
+
+.flex-container p {
+  direction: ;
+}
+
+.flex-container label {
+  text-align: left;
+  color: #ffffff;
+}
+
+.flex-container form input {
+  padding: 3px;
+  margin-bottom: 15px;
+  border: white;
+  border-bottom: 2px solid #e68b9b;
+  color: #2f070d;
+  font-size: 14px;
+}
+
+.grid-container {
+  background-color: rgb(255, 8, 90);
+  padding: 10px;
+}
+
+/* TODO: answer here */
